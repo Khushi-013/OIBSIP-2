@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    background-color: rgba(233, 107, 233, 0.733);
+    min-height: 100vh;
+    border:10px solid #4e042d;
+}
+
+.content{
+    max-width:900px;
+    margin:0 auto;
+}
+
+.main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.image,
+img{
+    width:300px;
+    height:320px;
+}
+
+.image{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.main h1{
+    font-size: 50px;
+    font-weight: bold;
+    color:#4e042d;
+    text-transform: uppercase;
+}
+
+.main h4{
+    font-size: 30px;
+    text-align: end;
+}
+
+.about{
+    margin-top: 50px;
+}
+
+.about h2{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.about p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.biography{
+    margin: 50px 0;
+}
+
+.biography h3{
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+
+.biography ul{
+    margin-left: 50px;
+}
+
+.biography li{
+    margin-bottom: 15px;
+}
+
+footer{
+    margin:50px 0;
+}
+
+footer p{
+    text-align: end;
+}
+
+body{
+    background-image: url("https://cdn.push-entertainment.com/live-wallpapers/beautiful-space-3d/992/Beautiful-Space-3D-Live-Wallpaper.jpg");
+}
